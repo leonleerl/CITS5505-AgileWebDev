@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Form Validation</title>
+    <link rel="stylesheet" href="form-validation.css">
+</head>
+<body>
+    <form id="myForm">
+        <div>
+            <input type="text" id="username" placeholder="Username">
+            <span id="usernameError" class="error"></span>
+        </div>
+        <div>
+            <input type="email" id="email" placeholder="Email">
+            <span id="emailError" class="error"></span>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="form-validation.js"></script>
+</body>
+</html>
